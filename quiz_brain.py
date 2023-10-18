@@ -17,9 +17,9 @@ class QuizBrain:
     def verify_answer(self, user_answer, correct_answer):
         if user_answer.lower() == correct_answer.lower():
             self.score += 1
-            print("Yay you got it right!")
+            print("Yay, you got it right ✌️")
         else:
-            print("Try again next time.")
+            print("Try again next time ☹️")
         print(f"The correct answer was {correct_answer}.")
         print(f"Your current score is {self.score}/{self.question_no}")
         print("\n")
